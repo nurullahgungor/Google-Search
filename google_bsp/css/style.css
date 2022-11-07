@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: white;
+}
+.nav-a{
+ padding-left: 0%;   
+}
+.nav-img{
+    padding: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.nav-img:hover{
+    background-color: #515151;
+    border-radius: 50%;
+    padding: 4px;
+}
+.col-auto input{
+    background-color: #202124;
+    border: none;
+}
+
+#content-conteiner{
+    height: 100%;
+}
+.i-fell-lucky,
+.google-search{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 30px -10px;
+    padding:  5px 16px;
+    line-height: 27px;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+#searchbar:focus{
+    outline: none;
+    color: white;
+}
+.i-fell-lucky:hover,
+.google-search:hover{
+    border: 1px solid #707069;
+}
+.location-footer,
+.footer-end{
+    background-color: #171717;
+    color: #797e82;
+}
+.footer-section{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+.location-footer{
+    padding: 0 1%;
+    
+}
+.footer-end{
+    padding: 0 1%;
+    border-top:1px #707069;
+}
+.footer-end a{
+    color: #797e82 
+}
